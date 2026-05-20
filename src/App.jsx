@@ -13,7 +13,7 @@ import {
   Compass,
   Briefcase
 } from "lucide-react";
-import { initDB, createTask, updateTask, addComment, deleteTask } from "./utils/mockData";
+import { initDB, createTask, updateTask, addComment, deleteTask } from "./utils/data";
 import Login from "./components/Login";
 import LocationSelection from "./components/LocationSelection";
 import DepartmentSelection from "./components/DepartmentSelection";

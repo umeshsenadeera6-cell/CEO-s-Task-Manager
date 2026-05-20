@@ -11,7 +11,7 @@ import {
   ArrowRight,
   Users
 } from "lucide-react";
-import { getTasks, getUsers } from "../utils/mockData";
+import { getTasks, getUsers } from "../utils/data";
 
 export default function DepartmentSelection({
   location,

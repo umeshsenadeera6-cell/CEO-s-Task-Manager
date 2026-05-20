@@ -13,8 +13,8 @@ import {
   Calendar,
   MessageSquare
 } from "lucide-react";
-import { getTasks, getUsers, getActivities } from "../utils/mockData";
-import { exportToCSV, exportToPDF } from "../utils/pdfExcelExport";
+import { getTasks, getUsers, getActivities } from "../utils/data";
+import { exportToCSV, exportToPDF } from "../utils/data";
 
 export default function Dashboard({
   location,

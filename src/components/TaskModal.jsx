@@ -14,7 +14,7 @@ import {
   Download,
   Plus
 } from "lucide-react";
-import { getUsers } from "../utils/mockData";
+import { getUsers } from "../utils/data";
 
 export default function TaskModal({
   task, // null for new task

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Lock, Mail, Eye, EyeOff, Shield, RefreshCw } from "lucide-react";
-import { loginUser } from "../utils/mockData";
+import { loginUser } from "../utils/data";
 
 export default function Login({ onLoginSuccess }) {
   const [usernameOrEmail, setUsernameOrEmail] = useState("");

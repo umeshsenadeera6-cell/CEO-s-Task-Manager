@@ -1,6 +1,6 @@
 import React from "react";
 import { Building2, Factory, ArrowRight, User } from "lucide-react";
-import { getTasks } from "../utils/mockData";
+import { getTasks } from "../utils/data";
 
 export default function LocationSelection({ user, onSelectLocation, onLogout }) {
   const tasks = getTasks();

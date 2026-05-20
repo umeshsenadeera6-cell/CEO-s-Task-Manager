@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Search, Filter, Plus, Calendar, AlertCircle, Clock, CheckCircle } from "lucide-react";
-import { getTasks, getUsers } from "../utils/mockData";
+import { getTasks, getUsers } from "../utils/data";
 
 export default function MembersPage({
   location,
